@@ -99,7 +99,7 @@ test_cfg = dict(
 )
 # dataset settings
 dataset_type = 'CocoDataset'
-data_root = '/content/unzipped_dset/nodist_640_COCO/data/COCO'    #######I CHANGED THIS
+data_root = '/content/unzipped_dset/nodist_640_COCO/data/COCO/'    #######I CHANGED THIS
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
 train_pipeline = [
